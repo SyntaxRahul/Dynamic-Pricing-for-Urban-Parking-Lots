@@ -86,14 +86,14 @@ Price is adjusted based on real-time demand, ensuring bounded fluctuations (0.5x
 
 ## 🔧 Architecture Diagram
 
-```mermaid
 flowchart TD
-    A[Cleaned Data: cleaned.csv] --> B[Preprocessing with Pandas]
-    B --> C[Pathway Schema and Stream Setup]
+    A[Input CSV: Parking Data] --> B[Preprocessing using Pandas]
+    B --> C[Pathway Schema + UDFs]
     C --> D[Feature Engineering]
-    D --> E[Pricing Models]
-    E --> F[Real-Time Output (JSONL)]
-    F --> G[Visualization with Bokeh]
+    D --> E[Dynamic Pricing Model]
+    E --> F[Stream Output JSONL]
+
+
 ```
 
 ---
