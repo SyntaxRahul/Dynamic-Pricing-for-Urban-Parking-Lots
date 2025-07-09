@@ -1,0 +1,10 @@
+# Core libraries
+pathway==0.6.4
+pandas==2.2.2
+python-dateutil>=2.8.2
+
+# For data visualization
+bokeh==3.4.1
+
+# Optional (used internally by Pathway)
+pyarrow>=14.0.1
