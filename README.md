@@ -20,19 +20,22 @@ The solution simulates a **real-time pricing engine** using the **Pathway stream
 ---
 
 ## 📂 Project Structure
-dynamic-parking-pricing/
+project/
 │
 ├── data/
-│ └── cleaned.csv # Preprocessed dataset used in Pathway pipeline
+│   └── cleaned.csv                    # Final dataset used for pricing logic
 │
 ├── notebooks/
-│ └── dynamic_pricing_pipeline.ipynb # Main notebook with data loading, models & plots
+│   └── dynamic_parking_pricing.ipynb # Main notebook with all models and streaming logic
 │
 ├── outputs/
-│ └── streamed_output.jsonl # Output of prices from real-time simulation
+│   └── streamed_output.jsonl         # (Optional) Output from real-time Pathway stream
 │
-├── README.md # Project overview and documentation (this file)
-└── requirements.txt # List of required packages
+├── README.md                         # Complete project overview, models, diagram, usage
+│
+└── requirements.txt                  # All required Python packages (numpy, pandas, etc.)
+
+
 
 ---
 
