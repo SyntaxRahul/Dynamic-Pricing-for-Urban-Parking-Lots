@@ -86,11 +86,12 @@ Incorporates location proximity and competitor pricing using lat-long and rerout
 ```mermaid
 flowchart TD
     A[Cleaned Data: cleaned.csv] --> B[Preprocessing with Pandas]
-    B --> C[Pathway Schema & Stream Setup]
+    B --> C[Pathway Schema and Stream Setup]
     C --> D[Feature Engineering]
-    D --> E[Pricing Models (1, 2, 3)]
+    D --> E[Pricing Models]
     E --> F[Real-Time Output (JSONL)]
     F --> G[Visualization with Bokeh]
+
 ```
 
 ---
