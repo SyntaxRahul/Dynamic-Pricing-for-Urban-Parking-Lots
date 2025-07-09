@@ -84,8 +84,8 @@ Price is adjusted based on real-time demand, ensuring bounded fluctuations (0.5x
 
 ---
 
-## 🔧 Architecture Diagram
-
+## Architecture Diagram
+```mermaid
 flowchart TD
     A[Input CSV: Parking Data] --> B[Preprocessing using Pandas]
     B --> C[Pathway Schema + UDFs]
